@@ -1,0 +1,124 @@
+{
+  "id": "60de3c44-e6eb-463c-9aac-249668235b08",
+  "version": "2.0",
+  "name": "smoke test_selenium",
+  "url": "http://uniformm1.upskills.in/admin/index.php?route=common/dashboard&token=GojamxBwtSmLEAaHnCBgb3P8yKe4N2vQ",
+  "tests": [{
+    "id": "98f2b048-a9d1-44c2-8964-77c2f668b0b1",
+    "name": "categorypage_admin",
+    "commands": [{
+      "id": "94364721-e62b-4328-8660-fee1cfef4d1c",
+      "comment": "",
+      "command": "open",
+      "target": "http://uniformm1.upskills.in/admin/index.php?route=common/dashboard&token=GojamxBwtSmLEAaHnCBgb3P8yKe4N2vQ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a75801f9-b117-4cde-b214-646d5536ca04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1100x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cc5a62e-171f-4a28-95dd-f60411874bc0",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-username",
+      "targets": [
+        ["id=input-username", "id"],
+        ["name=username", "name"],
+        ["css=#input-username", "css:finder"],
+        ["xpath=//input[@id='input-username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e48c9982-e0a4-4775-84e1-ac720b17ff0c",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-username",
+      "targets": [
+        ["id=input-username", "id"],
+        ["name=username", "name"],
+        ["css=#input-username", "css:finder"],
+        ["xpath=//input[@id='input-username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "5dc3e4d1-3d44-4bb0-ab8d-d81afdfaea81",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d33979c0-a57b-4937-982b-76b9ff97bc08",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "admin@123"
+    }, {
+      "id": "6b94c4ae-347f-4388-bbc9-2131f81d48ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-key",
+      "targets": [
+        ["css=.fa-key", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div[3]/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf897bfd-d21e-4bdc-9c38-17cbac4ee4dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Categories",
+      "targets": [
+        ["linkText=Categories", "linkText"],
+        ["css=#catalog > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Categories')]", "xpath:link"],
+        ["xpath=//li[@id='catalog']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://uniformm1.upskills.in/admin/index.php?route=catalog/category&token=V32BlHrEeEj5BHLbqCGfyRsdND8YorR5']", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Categories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69f9ccf0-ed85-4d4b-9341-630df1ff52d5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4d171c80-75b8-478b-832f-4b3983f82625",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["98f2b048-a9d1-44c2-8964-77c2f668b0b1"]
+  }],
+  "urls": ["http://uniformm1.upskills.in/admin/index.php?route=common/dashboard&token=GojamxBwtSmLEAaHnCBgb3P8yKe4N2vQ"],
+  "plugins": []
+}
